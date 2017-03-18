@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<script>
+function myfunc(){
+	var hidden = false;
+	document.getElementById("sme").style.display= "inline";
+	document.getElementById("title").style.display= "inline";
+	setInterval(function(){
+	document.getElementById("sme").style.visibility= hidden ? "visible" : "hidden";
+	document.getElementById("sme").style.display= "none";
+	document.getElementById("title").style.visibility= hidden ? "visible" : "hidden";
+	document.getElementById("title").style.display= "none";
+},19000);
+}
+</script>
+
+<head>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+</style>
+</head>
+
+<body onload="myfunc()">
+<div class="screen" align="center">
+<div class="container">
+
+<header>
+   <img src="banner.jpg" alt="LOGO" width="750px" height="120px">
+</header>
+
+<div>
+<div class="dropdown">
+ <a href="index.html">
+  <button class="dropbtn button1">Home</button>
+ </a>  
+</div>
+<div class="dropdown">
+  <a href="company_profile.html">
+	<button class="dropbtn">Company Profile</button>
+  </a>
+</div>
+<div class="dropdown">
+	<a href="our_services.html">
+	  <button class="dropbtn">Services</button>
+	</a>
+	<div class="dropdown-content">
+		<a href="our_services.html#Certification_Services">Certification Services </a>
+		<a href="our_services.html#Registration_Services"> Registration Services </a>
+		<a href="our_services.html#Marketing_Services"> Marketing Services </a>
+		<a href="our_services.html#Consultancy_Services"> Consultancy Services </a>
+		<a href="our_services.html#PMFM_Services"> Project Management & Financial Management Service </a>
+		<a href="our_services.html#Other_Services"> Other Services </a>
+	</div>
+</div>
+<div class="dropdown">
+ <a href="current_job.html">
+  <button class="dropbtn">Current Job</button>
+ </a> 
+</div>
+<div class="dropdown" style="border-right: none;">
+ <a href="contact_us.html">
+  <button class="dropbtn button2">Contact Us</button>
+ </a> 
+</div>
+
+</div>
+<br><br><br><br>
+<div class="content">
+	<marquee behavior="scroll" scrolldelay="100">
+		<img src="mse_banner2.jpg" id="sme" style="display: none; margin: 0; padding: 0;"/>  
+		<img src="title.jpg" id="title" style="display: none; margin-left: 0; margin-bottom: 10px;">
+		<img src="udyog.png"/>
+		<img src="fssai.jpg"/>
+		<img src="nsic.jpg"/>
+		<img src="msme.png"/>
+		<img src="isi.png"/>
+		<img src="iso.png" style="margin-bottom: 20px;"/>
+		<img src="agmark-certification.jpg"/>
+		<img src="hallmark-certification.jpg"/>
+		<img src="registered.png"/> 
+		<img src="rdso.jpg" style="margin-bottom: 30px;"/>
+		<img src="dgsd.jpg" style="margin-bottom: 30px;"/>
+		<img src="tm.jpg" style="margin-bottom: 20px;"/>
+		<img src="import_export.jpg"/>
+		<img src="ce.jpg"/>
+	</marquee>
+</div>
+<br>
+<div class="maincontainer">
+  <div class="nav">
+	<table id="navTable">
+			<tr>
+				<td>
+					<img src="services.jpg" height="100px" width="100%" style="padding: 0px; border-radius: 20px;"/>	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li style="border-bottom: 1px dotted black;">	
+							<a href="our_services.html#Certification_Services">
+								<b> Certification Services </b>
+							</a>
+						</li>	
+						<li style="border-bottom: 1px dotted black; margin-top: .2em;">	
+							<a href="our_services.html#Registration_Services">
+								<b> Registration Services </b>
+							</a> 
+						</li>
+						<li style="border-bottom: 1px dotted black; margin-top: .2em;">
+							<a href="our_services.html#Marketing_Services">
+								<b> Marketing Services</b>
+							</a>
+						</li>
+						<li style="border-bottom: 1px dotted black; margin-top: .2em;">
+							<a href="our_services.html#Consultancy_Services">	
+								<b> Consultancy Services</b>
+							</a>
+						</li>
+						<li style="border-bottom: 1px dotted black; margin-top: .4em;">							
+							<a href="our_services.html#PMFM_Services">
+								<b> Project Management & Financial Management Service </b>
+							</a>
+						</li>
+						<li style="margin-top: .2em;">							
+							<a href="our_services.html#Other_Services">
+								<b> Other Services </b>
+							</a>
+						</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+  </div>
+  <div class="maincontent">
+	<h1>Current Job</h1>
+	<p>
+		<b>- No Opening Yet</b>
+	</p>
+  </div>	
+</div>
+
+<footer>&copy; Copyright 2009 - 2010. Micro Solution Enterprise</footer>
+
+</div>
+</div>
+
+</body>
+</html>

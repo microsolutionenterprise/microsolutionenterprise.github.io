@@ -1,0 +1,223 @@
+div.screen {
+    width: 100%;
+	background-color: #2B898D;	
+	margin: 0;
+}
+
+div.container {
+    width: 80%;
+   // border: 1px solid gray;
+	//background-color: #E7EFEF; 
+}
+
+div.content
+{
+    width: 97%;
+    border: 2px solid #a1a1a1;
+    border-radius: 20px;
+    text-align: justify;
+	background-color: white;
+    clear: both;
+	padding: 0px 10px;
+	min-height: 230px;
+	max-height: 230px;
+}
+
+div.maincontainer
+{
+    width: 100%;
+	text-align: justify;
+   // height: 500px;
+    clear: both;
+//	background-color: #BDE0ED;
+}
+
+div.maincontent
+{
+    width: 79.5%;
+	border: 2px solid #a1a1a1;
+    border-radius: 20px;
+	height: auto;
+    text-align: justify;
+	float: right;
+	background-color: #BAF480;
+	min-height: 200px;
+}
+
+div:last-of-type{
+   margin-bottom: 20px;
+}
+
+header {
+   // padding: 1em;
+  //  background-color: gray;
+    text-align: left;
+	clear: both;
+}
+footer {
+    padding: 1em;
+    color: blue;
+	border-top: 2px solid red;
+    text-align: left;
+	clear: both;
+}
+
+div.nav {
+    float: left;
+    width: 19%;
+	border: 2px solid #a1a1a1;
+    border-radius: 20px;
+	font-size: 10pt;
+	background-color: #E6BF83;
+}
+
+.button1 {border-radius: 10px 0px 0px 10px;}
+.button2 {border-radius: 0px 10px 10px 0px;}
+
+.hidden {
+  display:none;
+}
+
+#circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+    }
+	
+table#navTable{
+	border-collapse: collapse;
+	width: 90%;
+}
+
+table#navTable td{
+	width: 90%;
+	height: 20px;
+	text-align: left;
+	border: 1px solid gray;
+	border-style: none none dotted none;
+	padding: 0px 0px 0px 10px;
+	color: #AB2002;
+}
+
+#serviceTable{
+	text-align: justify;
+	padding: 0px 0px 0px 10px;
+	font-size: 11pt;
+}
+
+table#serviceTable tr:nth-child(odd){
+	font-weight: bold;
+	font-size: 11pt;
+	color: #027B7B;
+}
+
+table#serviceTable tr:nth-child(even){
+	display: inline-block;
+	width: 100%;
+	color: #051878;
+	font-size: 4;
+	border-style: none none dotted none;
+	border-bottom-color: #4CAF50;
+}
+
+
+table{
+	text-align: center;
+}
+
+td{
+	height: 40px;
+}
+
+h1 {
+    border-bottom: 1px solid #fff3cc;
+    box-shadow: 0 1px 0 #dfbe4f;
+	font-style: oblique;
+	font-family: "Georgia", Times New Roman;
+	font-size: 24px;
+	color: #051878;
+}
+
+p {
+    font-family: Times New Roman, Georgia, "Serif";
+	padding: 10px;
+}
+
+
+/* Button style */
+ .button{
+	width: 100%;
+	outline: none;
+	
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 19.8%;
+    float: left;
+    border-right: 1px solid green;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+table#navTable a{
+	color: #AB2002;
+	text-decoration: none;
+}	
+
+table#navTable a:hover{
+	color: red;
+	text-decoration: none;
+}	
+
+
+img{
+	max-width: 100%;
+    max-height: 100%;
+	padding: 0px 40px;
+}

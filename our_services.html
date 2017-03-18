@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+<script>
+function myfunc(){
+	var hidden = false;
+	document.getElementById("sme").style.display= "inline";
+	document.getElementById("title").style.display= "inline";
+	setInterval(function(){
+	document.getElementById("sme").style.visibility= hidden ? "visible" : "hidden";
+	document.getElementById("sme").style.display= "none";
+	document.getElementById("title").style.visibility= hidden ? "visible" : "hidden";
+	document.getElementById("title").style.display= "none";
+},19000);
+}
+</script>
+</head>
+
+<body onload="myfunc()">
+<div class="screen" align="center">
+  <div class="container">
+
+	<header>
+	   <img src="banner.jpg" alt="LOGO" width="750px" height="120px">
+	</header>
+	
+	<div >
+		<div class="dropdown">
+		 <a href="index.html">
+		  <button class="dropbtn button1">Home</button>
+		 </a>  
+		</div>
+		<div class="dropdown">
+		  <a href="company_profile.html">
+			<button class="dropbtn">Company Profile</button>
+		  </a>
+		</div>
+		<div class="dropdown">
+		  <a href="our_services.html">
+			<button class="dropbtn">Services</button>
+		  </a>
+		  <div class="dropdown-content">
+			<a href="#Certification_Services">Certification Services </a>
+			<a href="#Registration_Services"> Registration Services </a>
+			<a href="#Marketing_Services"> Marketing Services </a>
+			<a href="#Consultancy_Services"> Consultancy Services </a>
+			<a href="#PMFM_Services"> Project Management & Financial Management Service </a>
+			<a href="#Other_Services"> Other Services </a>
+		  </div>
+		</div>
+		<div class="dropdown">
+		 <a href="current_job.html">
+		  <button class="dropbtn">Current Job</button>
+		 </a> 
+		</div>
+		<div class="dropdown" style="border-right: none;">
+		 <a href="contact_us.html">
+		  <button class="dropbtn button2">Contact Us</button>
+		 </a> 
+		</div>
+
+	</div>
+	<br><br><br><br>
+	<div class="content">
+		<marquee behavior="scroll" scrolldelay="100">
+			<img src="mse_banner2.jpg" id="sme" style="display: none; margin: 0; padding: 0;"/>  
+			<img src="title.jpg" id="title" style="display: none; margin-left: 0; margin-bottom: 10px;">
+			<img src="udyog.png"/>
+			<img src="fssai.jpg"/>
+			<img src="nsic.jpg"/>
+			<img src="msme.png"/>
+			<img src="isi.png"/>
+			<img src="iso.png" style="margin-bottom: 20px;"/>
+			<img src="agmark-certification.jpg"/>
+			<img src="hallmark-certification.jpg"/>
+			<img src="registered.png"/> 
+			<img src="rdso.jpg" style="margin-bottom: 30px;"/>
+			<img src="dgsd.jpg" style="margin-bottom: 30px;"/>
+			<img src="tm.jpg" style="margin-bottom: 20px;"/>
+			<img src="import_export.jpg"/>
+			<img src="ce.jpg"/>
+		</marquee>
+	</div>
+	<br>
+	<div class="maincontainer">
+	  <div class="nav">
+		<table id="navTable">
+			<tr>
+				<td>
+					<img src="services.jpg" height="100px" width="100%" style="padding: 0px; border-radius: 20px;"/>	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li style="border-bottom: 1px dotted black;">	
+							<a href="#Certification_Services">
+								<b> Certification Services </b>
+							</a>
+						</li>	
+						<li style="border-bottom: 1px dotted black; margin-top: .2em;">	
+							<a href="#Registration_Services">
+								<b> Registration Services </b>
+							</a> 
+						</li>
+						<li style="border-bottom: 1px dotted black; margin-top: .2em;">
+							<a href="#Marketing_Services">
+								<b> Marketing Services</b>
+							</a>
+						</li>
+						<li style="border-bottom: 1px dotted black; margin-top: .2em;">
+							<a href="#Consultancy_Services">	
+								<b> Consultancy Services</b>
+							</a>
+						</li>
+						<li style="border-bottom: 1px dotted black; margin-top: .4em;">							
+							<a href="#PMFM_Services">
+								<b> Project Management & Financial Management Service </b>
+							</a>
+						</li>
+						<li style="margin-top: .2em;">							
+							<a href="#Other_Services">
+								<b> Other Services </b>
+							</a>
+						</li>
+					</ul>	
+				</td>	
+			</tr>
+		</table>
+	  </div>
+	  <div class="maincontent" style="overflow-y: scroll; max-height: 500px;">
+		<h1>Our Services</h1>
+			<p>
+			<font size="4">
+				We are empowering Micro, Small and Medium Enterprises by providing the Consultancy, Licensing and Registration services for following area:
+			</font>
+			</p>
+			<table id="serviceTable" style="font-size: large;">
+				<tr>
+					<td>
+						<img src="tick.jpg" height="30px" width="30px" style="padding: 0px;">
+						CREDIT RATINGS AND REPORTS
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>
+								Basel II Ratings from RBI Recognized  Rating Agencies.
+							</li>
+							<li>
+								NSIC- Performance and Credit Ratings, Recognized Rating Agencies.
+							</li>	
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td id="Registration_Services">
+						<img src="tick.jpg" height="30px" width="30px" style="padding: 0px;">
+						MSME REGISTRATION CONSULTANCY SERVICES & VENDOR REGISTRATION SERVICES
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>
+								Registration of  MSME (SSI), NSIC (Govt. Purchase  Registration), All Service  & Manifesting unit, DGS&D, RDSO, Registration. 
+							</li>
+							<li>
+								Retainer, Liaison agent for Government Tenders, Railway registration,  DGQA (Ministry of Defense), IOCL, HPCL, BPCL, Air HQ, Army HQ, Naval HQ, Air India, BSF, CRPF, Railway Coach Factories . All Casting Factories developing. 
+							</li>	
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-left: 30px;">
+						BUSINESS REGISTRATION CONSULTANCY SERVICES
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>	
+								Copy Right Registration Services 
+							</li>	
+							<li>	
+								Creation Of Trust And Registration
+							</li>
+							<li>
+								Design Registration Services 
+							</li>
+							<li>
+								Factory License Services 
+							</li>
+							<li>							
+								Incorporation Of Company 
+							</li>
+							<li>							
+								Calibration Certification Service 
+							</li>
+							<li>			
+								CE Registration Service 
+							</li>
+							<li>	
+								Logo Registration Services 
+							</li>
+							<li>							
+								PAN Assistance Services 
+							</li>
+							<li>
+								Patend Registration Services 
+							</li>
+							<li>							
+								Registration Of Partnership Firm 
+							</li>
+							<li>							
+								Registration Of Private Limited Company 
+							</li>
+							<li>							
+								Registration Of Proprietorship Firm 
+							</li>
+							<li>	
+								Registration Of Public Limited Company 
+							</li>
+							<li>	
+								Registration Of Society 
+							</li>
+							<li>	
+								Sales Tax Registration And Compliance Services 
+							</li>
+							<li>	
+								Service Tax Registration Services 
+							</li>
+							<li>	
+								TAN Assistance Services 
+							</li>
+							<li>
+								Trade License Services 
+							</li>							
+							<li>
+								Trade Mark Registration Services 
+							</li>
+							<li>	
+								Vat Registration 
+							</li>
+							<li>	
+								GST Registration 
+							</li>
+							<li>	
+								Labour license Registration
+							</li>
+							<li>	
+								Fire license Registration
+							</li>
+						</ul>	
+					</td>
+				</tr>
+				
+				<tr>
+					<td id="Certification_Services">
+						<img src="tick.jpg" height="30px" width="30px" style="padding: 0px;">
+						CERTIFICATION SERVICES
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>	
+								Agmark Certification
+							</li>	
+							<li>	
+								Hallmark Certification 
+							</li>
+							<li>
+								ISI Certification
+							</li>
+							<li>
+								Fssai Certification
+							</li>
+							<li>							
+								Polution Certification 
+							</li>
+						</ul>	
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-left: 30px;">
+						ISO AND PRODUCT CERTIFICATION SERVICES
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>	
+								Certification and Consultancy Expertise for: ISO, OHSAS, ISO 9001 : 2008 QMS 
+							</li>	
+							<li>	
+								ISO 14001 : 2004 EMS
+							</li>
+							<li>
+								OHSAS 18001 : 2007 
+							</li>
+							<li>
+								HACCP ISO 22000 FSMS
+							</li>
+							<li>							
+								ISO 27001 ISMS
+							</li>
+							<li>							
+								ISO 17025 / NABL
+							</li>
+							<li>			
+								SA 8000
+							</li>
+							<li>	
+								TS 16949 : 2009
+							</li>
+							<li>							
+								ISO 13485
+							</li>
+							<li>
+								ISO 10001 / 2 /3
+							</li>
+							<li>							
+								CE Marking
+							</li>
+							<li>							
+								Organic Certification
+							</li>
+							<li>							
+								Integrated ISO System 
+							</li>
+							<li>	
+								ISO Documentation
+							</li>
+							<li>	
+								ISO Implementation
+							</li>
+							<li>	
+								ISO Consulting 
+							</li>
+						</ul>	
+					</td>
+				</tr>
+				</tr>
+				<tr>
+					<td  id="Consultancy_Services">
+						<img src="tick.jpg" height="30px" width="30px" style="padding: 0px;">
+						CONSULTANCY SERVICES
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>	
+								Industrial plant & Machinery supply
+							</li>	
+							<li>	
+								All Digital Printing Solution Service
+							</li>
+							<li>
+								Foundry consumables  Product
+							</li>
+							<li>
+								Web Designing
+							</li>
+							<li>							
+								Cloud based solution for business 
+							</li>
+							<li>							
+								Project Development service, Ex-Casting Factory,LPG Cylinder, Rice Mill, Etc..
+							</li>
+						</ul>	
+					</td>
+				</tr>
+				<tr>
+					<td id="PMFM_Services">
+						<img src="tick.jpg" height="30px" width="30px" style="padding: 0px;">
+						PROJECT MANAGEMENT AND FINACIAL MANAGEMENT SERVICES
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>	
+								Preparation Of Project Reports , Industrial Assessments
+							</li>	
+							<li>	
+								Arrangement of Busniess Credit for MSMEs under CGTMSE Scheme
+							</li>
+							<li>
+								Turn Key Project Management
+							</li>
+							<li>
+								Project Loan,SME Loan, Lap
+							</li>
+							<li>							
+								Home Loan
+							</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td id="Marketing_Services">
+						<img src="tick.jpg" height="30px" width="30px" style="padding: 0px;">
+						MARKETING AND BUSINESS ASSOCIATTES SERVICES
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>	
+								Marketing Support and Business Developemnt Services
+							</li>	
+							<li>	
+								Brand Valuations, Product Launching and Event Management
+							</li>
+							<li>
+								Marketing and Branding Consultancy
+							</li>
+							<li>
+								Joint Ventures and Collaborations
+							</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td  id="Other_Services">
+						<img src="tick.jpg" height="30px" width="30px" style="padding: 0px;">
+						WE ALSO OFFER SPECIALIZED SERVICES IN THE FOLLOWING FIELDS 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>
+								Liaison services: We undertake liaison assignments, particularly with The Government of India / State Governments for necessary 
+								approvals of different kinds of applications submitted to the Ministries. On behalf of our associates, we also interact with 
+								business houses, embassies, etc.
+							</li>
+							<li>
+								Representations: For our MSME clients  and customers around the globe, we extend our liaison services to interact with the Govt. 
+								agencies- their associates, clients for the growth of their business and creating an image of the organization as a whole.
+							</li>
+							<li>
+								Follow-up of tenders / procuring orders: We are professionals in the follow-up of the quotations of our associates in all the 
+								Ministries of The Government of India, and translating them into orders. 
+							</li>
+						</ul>	
+							Our services include getting the technical approval of the product, getting it included in the proposal of the relevant industry, 
+							release of funds by the policy department of the respective Ministry, floating of tenders with specific specifications, follow-up of tender and the placement of order. Our services do not end at this stage. We offer our services till the time our customers are completely satisfied with the execution of the order. 
+							Completion of the time-bound assignments  of our clients has earned us the name and reputation of "A result oriented organization with satisfied customers". 
+						<br><br>
+							Vital Consulting  is a team of Result-oriented, Seasoned and Intelligent Professionals, who believe in 100% results.
+					</td>
+				</tr> 	
+			</table>
+				<h5 style="padding: 0px 10px;; color: red; align: justify; font-size: 10pt;">
+				Being “PROFESSIONALS”, we believe in undertaking calculated risk, without dreading any fear to complete our projects successfully. According to “PROFESSIONALS”, 
+				“NOTHING IS IMPOSSIBLE”. As evident from our logo we stand by our commitment to empower MSMEs by envisioning, engaging and empowering them by our services. 
+			</h5>
+	  </div>	
+	</div>
+	<br>
+	<footer>&copy; Copyright 2009 - 2010. Micro Solution Enterprise</footer>
+
+  </div>
+</div>
+
+</body>
+</html>

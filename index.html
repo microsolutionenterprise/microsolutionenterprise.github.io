@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+
+<script>
+function myfunc(){
+	var hidden = false;
+	document.getElementById("sme").style.display= "inline";
+	document.getElementById("title").style.display= "inline";
+	setInterval(function(){
+	document.getElementById("sme").style.visibility= hidden ? "visible" : "hidden";
+	document.getElementById("sme").style.display= "none";
+	document.getElementById("title").style.visibility= hidden ? "visible" : "hidden";
+	document.getElementById("title").style.display= "none";
+},19000);
+}
+</script>
+</head>
+
+<body onload="myfunc()">
+<div class="screen" align="center">
+<div class="container">
+
+<header>
+   <img src="banner.jpg" alt="LOGO" width="750px" height="120px">
+</header>
+
+<div>
+<div class="dropdown">
+ <a href="index.html">
+  <button class="dropbtn button1">Home</button>
+ </a>  
+</div>
+<div class="dropdown">
+  <a href="company_profile.html">
+	<button class="dropbtn">Company Profile</button>
+  </a>
+</div>
+<div class="dropdown">
+	<a href="our_services.html">
+	  <button class="dropbtn">Services</button>
+	</a>
+	<div class="dropdown-content">
+		<a href="our_services.html#Certification_Services">Certification Services </a>
+		<a href="our_services.html#Registration_Services"> Registration Services </a>
+		<a href="our_services.html#Marketing_Services"> Marketing Services </a>
+		<a href="our_services.html#Consultancy_Services"> Consultancy Services </a>
+		<a href="our_services.html#PMFM_Services"> Project Management & Financial Management Service </a>
+		<a href="our_services.html#Other_Services"> Other Services </a>
+	</div>
+</div>
+<div class="dropdown">
+ <a href="current_job.html">
+  <button class="dropbtn">Current Job</button>
+ </a> 
+</div>
+<div class="dropdown" style="border-right: none;">
+ <a href="contact_us.html">
+  <button class="dropbtn button2">Contact Us</button>
+ </a> 
+</div>
+
+</div>
+<br><br><br><br>
+<div class="content">
+	<marquee behavior="scroll" scrolldelay="100">
+		<img src="mse_banner2.jpg" id="sme" style="display: none; margin: 0; padding: 0;"/>  
+		<img src="title.jpg" id="title" style="display: none; margin-left: 0; margin-bottom: 10px;">
+		<img src="udyog.png"/>
+		<img src="fssai.jpg"/>
+		<img src="nsic.jpg"/>
+		<img src="msme.png"/>
+		<img src="isi.png"/>
+		<img src="iso.png" style="margin-bottom: 20px;"/>
+		<img src="agmark-certification.jpg"/>
+		<img src="hallmark-certification.jpg"/>
+		<img src="registered.png"/> 
+		<img src="rdso.jpg" style="margin-bottom: 30px;"/>
+		<img src="dgsd.jpg" style="margin-bottom: 30px;"/>
+		<img src="tm.jpg" style="margin-bottom: 20px;"/>
+		<img src="import_export.jpg"/>
+		<img src="ce.jpg"/>
+	</marquee>
+</div>
+<br>
+<div class="maincontainer" style="border: 2px solid #a1a1a1; border-radius: 20px; background-color: #BAF480;">	
+  	<h1>Welcome to Micro Solution Enterprise</h1>
+	<p>
+	<font size="4">
+		<b>Micro Solution Enterprise</b> is a leading firm located at the city Kolkata. We provide our  services in pan India .The company provides the 
+		latest professional services such as Consultancy Services, and public business sectors. Our practice includes giving advices on all viewpoints of 
+		Trademark, Copyright, Company Establishment, including Licensing, Certification Services, Agmark, Hallmark, ISO, Digital Printing Solution Service,	Web Designing, 
+		Cloud based solution for business & Financial Services.
+	<br><br>
+		Our clients belong do various industries including  Electronic, Mechanical, Civil, Software, Hardware, Bio-Technology, Pharmaceutical, Foundry. 
+		Healthcare, Telecommunication, All Govt.Vendor etc. Our consultants & agents have advanced degrees in the latest scientific disciplines and vast 
+		experience in handling the issues of different sectors. So, we have our powerful combination of legal and latest technical knowledge, therefore we 
+		have become one of the successful name in India. Our main aim is to provide reliable legal services and good management to the clients by successfully 
+		representation.
+	</font>	
+	</p>
+	<table width="100%" style="text-align: left; border-collapse: collapse; padding: 0px 10px;">
+		<tr>
+			<th style="background-color: #F5B041; text-align: center; font-size: 24px; color: #051878;">Products</th>
+		</tr>
+	<!--	<tr>
+			<td style="background-color: #F8C471;">•	Certification Services</td>
+		</tr>
+		<tr>
+			<td style="background-color: #F8C471;">•	Registration Services</td>
+		</tr>
+		<tr>
+			<td style="background-color: #F8C471;">•	Import Export License</td>
+		</tr>
+		<tr>
+			<td style="background-color: #F8C471;">•	Consultancy Services</td>
+		</tr>
+		<tr>
+			<td style="background-color: #F8C471;">•	Financial Management & Industrial Project Management Service</td>
+		</tr>
+		<tr>
+			<td style="background-color: #F8C471; border-radius: 0px 0px 20px 20px;">•	Branding & Marketing Service </td>
+		</tr>  -->
+	</table>
+		<img src="Product-Info.jpg" height="50%" width="50%" style="float: left; padding: 0;"/>
+		<img src="web_design1.jpg" style="float: right; padding: 0;">
+		<img src="digital_printing.jpg" style="float: right; padding: 0;">
+  </div>	
+
+  <footer>&copy; Copyright 2009 - 2010. Micro Solution Enterprise</footer>
+
+</div>
+</div>
+
+</body>
+</html>
